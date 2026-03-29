@@ -7,6 +7,33 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* <!-- HTML !-->
+<button class="button-2" role="button">Button 2</button> */
+
+/* CSS */
+.button-2 {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2646,11 +2673,11 @@ input, select, textarea {
 			width: 6.25em;
 		}
 
-		#header li{
+		/* #header li{
 			display: flex;
 			flex-direction: column;
 			align-items:center;
-		}
+		} */
 
 /* Footer */
 
@@ -2707,8 +2734,9 @@ input, select, textarea {
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
+				
 			}
-
+		
 /* Poptrox */
 
 	@-moz-keyframes spin {
